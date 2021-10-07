@@ -1,0 +1,39 @@
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+.container {
+  padding: 30px; }
+
+.contacto {
+  max-width: 900px;
+  padding: 50px; }
+
+.main-vta {
+  padding: 60px;
+  margin: 80px; }
+
+.navegacion li {
+  padding: 5px;
+  list-style-type: none; }
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px; }
+
+.locales div {
+  display: flex;
+  justify-content: center; }
+
+.card {
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out; }
+
+.card:hover {
+  transform: scale(1.1); }
